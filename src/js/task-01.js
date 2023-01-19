@@ -1,8 +1,8 @@
+// Визначаємо головного батька від якого починаємо шукати єлементи
+const mainListEl = document.querySelector("#categories");
 // Визначаємо кількість li з класом item
 const numberOfCategories = document.querySelectorAll(".item");
 console.log("Number of categories:", numberOfCategories.length);
-// Визначаємо головного батька від якого починаємо шукати єлементи
-const mainListEl = document.querySelector("#categories");
 // Визначаємо перший заголовок на сторінці
 const firstTitleItem = document.querySelector("h2");
 console.log("Category:", firstTitleItem.textContent);
