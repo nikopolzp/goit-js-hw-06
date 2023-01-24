@@ -14,7 +14,7 @@ const liArray = [];
 // перебираємо за допомогою методу forEach
 ingredients.forEach((ingredient) => {
   const itemEl = document.createElement("li");
-  itemEl.className = "item";
+  itemEl.classList.add("item");
   itemEl.textContent = ingredient;
   liArray.push(itemEl);
 });
